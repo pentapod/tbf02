@@ -3,7 +3,7 @@
 set -e
 
 ADDR="http://localhost:30030"
-DEST_DIR="dist"
+DEST_DIR="docs"
 PAGES_DIR="pages"
 STATIC_DIR="static"
 
