@@ -1,0 +1,28 @@
+{
+  "name": "tbf02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pentapod/tbf02.git"
+  },
+  "author": "spring-raining",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-css-modules-transform": "^1.2.7",
+    "glamor": "^2.20.24",
+    "next": "2",
+    "normalize.css": "^5.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-inlinesvg": "^0.5.5",
+    "react-share": "^1.13.0"
+  }
+}
