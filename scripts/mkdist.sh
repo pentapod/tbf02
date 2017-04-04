@@ -35,6 +35,10 @@ wget --html-extension \
                  sed "s,\(.*\),$ADDR\1,g")
 set -e
 
+# fix /_next path
+sed -e 's:/_next:_next:g' $DEST_DIR/index.html > $DEST_DIR/index.html.tmp
+mv $DEST_DIR/index.html.tmp $DEST_DIR/index.html
+
 echo "closing server..."
 pkill -INT -g $$ node
 #pkill -INT -g $NEXT_PGID

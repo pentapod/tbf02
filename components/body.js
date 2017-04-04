@@ -38,7 +38,7 @@ class Body extends React.Component {
           <link rel="icon" type="image/png" href={this.props.favicon} />
           <link rel="canonical" href={this.props.url} />
 
-          <link rel="stylesheet" href="/static/css/bundle.css"/>
+          <link rel="stylesheet" href="static/css/bundle.css"/>
 
           <script dangerouslySetInnerHTML={{__html:
             `(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
