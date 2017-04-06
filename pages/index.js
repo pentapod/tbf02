@@ -8,6 +8,8 @@ import button from './../components/lib/button';
 const globalColors = {
   primary: '#e57d85',
   bg: '#f7eaeb',
+  text: '#252525',
+  textAlt: '#381d1f',
 };
 
 const bodyProps = {
@@ -275,7 +277,7 @@ export default class extends React.Component {
                 url("static/fonts/NotoSansCJKjp-Jxck-Bold.woff") format("woff");
           }
           body {
-            color: #555;
+            color: ${globalColors.text};
             background-color: #fff;
             font-size: 16px;
             font-family: "Noto Sans","Noto Sans CJK JP","NotoSansCJKjp-Jxck",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
@@ -447,6 +449,7 @@ export default class extends React.Component {
 
           section.detail {
             padding: 36px 0;
+            color: ${globalColors.textAlt};
             background-color: ${globalColors.bg};
             overflow: hidden;
           }
@@ -580,6 +583,7 @@ export default class extends React.Component {
 
           section.share {
             padding: 36px 0;
+            color: ${globalColors.textAlt};
             background-color: ${globalColors.bg};
             overflow: hidden;
           }
@@ -611,6 +615,7 @@ export default class extends React.Component {
             display: inline-block;
             margin-left: auto;
             padding-right: 1em;
+            fill: ${globalColors.text};
           }
         `}</style>
       </Body>
